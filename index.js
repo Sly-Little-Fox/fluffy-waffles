@@ -16,7 +16,7 @@ function download(filename, text) {
   document.body.removeChild(element);
 }
 
-for(let i = 0; i < limit; i++){
+for(let i = 0; i < LIMIT; i++){
   out += String.fromCharCode(i);
   out += '\n';
 }
